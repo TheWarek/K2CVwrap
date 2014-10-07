@@ -21,9 +21,15 @@
     <ClCompile Include="kcv_sensor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="kcv_depth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="kcv_sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kcv_depth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

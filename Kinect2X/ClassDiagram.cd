@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="kcv::KCV_sensor">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="acquireColorImage" Hidden="true" />
+      <Method Name="acquireDepthImage" Hidden="true" />
+      <Method Name="acquireRealDepthImage" Hidden="true" />
+      <Method Name="acquireVisDepthImage" Hidden="true" />
+      <Field Name="c_fd" Hidden="true" />
+      <Field Name="c_frame_heigth_scale" Hidden="true" />
+      <Field Name="c_frame_width_scale" Hidden="true" />
+      <Method Name="closeAll" Hidden="true" />
+      <Method Name="coordinateMapper" Hidden="true" />
+      <Field Name="coordMapped" Hidden="true" />
+      <Field Name="d_fd" Hidden="true" />
+      <Field Name="d_frame_heigth_scale" Hidden="true" />
+      <Field Name="d_frame_width_scale" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="isAvailable" Hidden="true" />
+      <Field Name="isTraining" Hidden="true" />
+      <Method Name="KCV_sensor" Hidden="true" />
+      <Field Name="m_ColorFrameReader" Hidden="true" />
+      <Field Name="m_DepthFrameReader" Hidden="true" />
+      <Method Name="openColorStream" Hidden="true" />
+      <Method Name="openDepthStream" Hidden="true" />
+      <Method Name="openKinectDevice" Hidden="true" />
+      <Method Name="openMultiStream" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="release" Hidden="true" />
+      <Method Name="setCoordinateMapper" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MEwQBAIgCIkgQAQAABHAOAgYAACAAAxAiAAggqAiABM=</HashCode>
+      <FileName>Kinect2X.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
